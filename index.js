@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const gen = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -19,17 +20,39 @@ const questions = () => {
         {
             type: 'input',
             message: 'Enter installation instructions.',
-            name: 'name',
+            name: 'install',
         },
         {
             type: 'input',
             message: 'Enter usage information.',
-            name: 'name',
+            name: 'usage',
         },
         {
             type: 'input',
             message: 'Enter test instructions.',
-            name: 'name',
+            name: 'test',
+        },
+        {
+            type: 'list',
+            message: 'Choose a license',
+            name: 'license',
+            choices: ['Unlicensed', 'Public domain', 'MIT license', 'Mozilla Public License 2.0', 'Copyleft']
+        },
+        {
+            type: 'input',
+            message: 'Enter your Github username.',
+            name: 'github',
+        },
+        {
+            type: 'input',
+            message: 'Enter your email.',
+            name: 'email',
+        },
+        {
+            type: 'list',
+            message: 'Choose one to represent you.',
+            name: 'emoji',
+            choices: ['💻', '🧸', '🗿', '🍕', '🌷', '🦕', '😎']
         },
     ])
 };
