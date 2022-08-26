@@ -10,7 +10,7 @@ const questions = () => {
         {
             type: 'input',
             message: 'Enter project name.',
-            name: 'name',
+            name: 'title',
         },
         {
             type: 'input',
@@ -26,6 +26,11 @@ const questions = () => {
             type: 'input',
             message: 'Enter usage information.',
             name: 'usage',
+        },
+        {
+            type: 'input',
+            message: 'Enter contribution guidelines.',
+            name: 'contribute',
         },
         {
             type: 'input',
@@ -58,10 +63,15 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+    questions()
+}
 
 // Function call to initialize app
 init();
