@@ -1,48 +1,39 @@
-# My Project
+# Calculator
 
   ## Description
-  Its a real project for real for real
-  <br>
+  You can do math on this cool calculator
 
-  ## Table of Contents
-  <br>
-  [Installation](#inst)
-  <br>
-  [Usage](#use)
-  <br>
-  [Contribution](#con)
-  <br>
-  [Test](#tst)
-  <br>
-  [Questions](#qst)
-  <br>
+  [Installation](#Installation)
 
-  <a name="inst"/>
-  ##Installation Instructions
-  install it on your computer
-  <br>
+  [Usage](#Usage)
+
+  [Contribution](#Contributing)
+
+  [Test](#Tests)
+
+  [Questions](#Questions)
   
-  <a name="use"/>
-  ##Usage
-  use it for everything in your life
-  <br>
 
-  <a name="con"/>
-  ##Contributing
-  You cannot contribute
-  <br>
+  ## Installation
+  install it on ur computer
+  
+  
+  ## Usage
+  Use it for math
+  
 
-  <a name="tst"/>
-  ##Tests
-  There is no need to test it
-  <br>
+  ## Contributing
+  Do not contribute
+  
 
-  <a name="qst"/>
-  ##Questions
-  <br>
+  ## Tests
+  Test it with math
+  
+  ## Questions
+  
   [GitHub:LeilaBouk](https://github.com/LeilaBouk)
-  <br>
-  You can reach me here: blank@gmail.com;
+  
+  You can reach me here: none@gmail.com;
 
-  🦕
+  ## 🧸
 
