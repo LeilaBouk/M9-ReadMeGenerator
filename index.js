@@ -11,48 +11,94 @@ const questions = () => {
             type: 'input',
             message: 'Enter project name.',
             name: 'title',
+            validate: name => {
+                if (name) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter a project name...");
+                    return false;
+                }
+            }
         },
+
         {
             type: 'input',
             message: 'Enter project description.',
             name: 'desc',
+            validate: name => {
+                if (name) {
+                    return true;
+                }
+                else {
+                    console.log("You must have a description");
+                    return false;
+                }
+            }
         },
+
         {
             type: 'input',
             message: 'Enter installation instructions.',
             name: 'install',
         },
+
         {
             type: 'input',
             message: 'Enter usage information.',
             name: 'usage',
         },
+
         {
             type: 'input',
             message: 'Enter contribution guidelines.',
             name: 'contribute',
         },
+
         {
             type: 'input',
             message: 'Enter test instructions.',
             name: 'test',
         },
+
         {
             type: 'list',
             message: 'Choose a license',
             name: 'license',
-            choices: ['Unlicensed', 'Public domain', 'MIT license', 'Mozilla Public License 2.0', 'Copyleft']
+            choices: ['Unlicense', 'Hippocratic_3.0', 'MIT', 'MPL_2.0', 'PDDL', 'Apache_2.0', 'None']
         },
         {
             type: 'input',
             message: 'Enter your Github username.',
             name: 'github',
+            validate: name => {
+                if (name) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter your github username");
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             message: 'Enter your email.',
             name: 'email',
+            validate: email => {
+
+               validEmail = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()\.,;\s@\"]+\.{0,1})+([^<>()\.,;:\s@\"]{2,}|[\d\.]+))$/.test(email);
+
+                if (validEmail) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter a valid email");
+                    return false;
+                }
+            }
         },
+
         {
             type: 'list',
             message: 'Choose one to represent you.',

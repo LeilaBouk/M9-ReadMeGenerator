@@ -1,7 +1,9 @@
-# Calculator
+
+  [![license](https://img.shields.io/badge/license-Unlicense-lightblue)](https://shields.io)
+  # d
 
   ## Description
-  You can do math on this cool calculator
+  d
 
   [Installation](#Installation)
 
@@ -15,25 +17,25 @@
   
 
   ## Installation
-  install it on ur computer
+  d
   
   
   ## Usage
-  Use it for math
+  d
   
 
   ## Contributing
-  Do not contribute
+  d
   
 
   ## Tests
-  Test it with math
+  d
   
   ## Questions
   
-  [GitHub:LeilaBouk](https://github.com/LeilaBouk)
+  [GitHub:d](https://github.com/d)
   
-  You can reach me here: none@gmail.com;
+  You can reach me here: yoho@gmail.com;
 
-  ## 🧸
+  ## 💻
 
