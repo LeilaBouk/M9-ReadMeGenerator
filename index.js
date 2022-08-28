@@ -122,7 +122,7 @@ function init() {
     questions()
     .then(function (inputs) {
         console.log(inputs)
-        writeToFile("./testRM/README.md", generateMarkdown(inputs));
+        writeToFile("./RM/README.md", generateMarkdown(inputs));
     })
  
 }
