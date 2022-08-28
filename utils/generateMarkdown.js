@@ -8,6 +8,8 @@ function generateMarkdown(data) {
   ## Description
   ${data.desc}
 
+  # Index
+
   [Installation](#Installation)
 
   [Usage](#Usage)
@@ -19,7 +21,8 @@ function generateMarkdown(data) {
   [License](#License)
 
   [Questions](#Questions)
-  
+
+  #
 
   ## Installation
   ${data.install}
