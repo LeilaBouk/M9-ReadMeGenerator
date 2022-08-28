@@ -16,6 +16,8 @@ function generateMarkdown(data) {
 
   [Test](#Tests)
 
+  [License](#License)
+
   [Questions](#Questions)
   
 
@@ -33,6 +35,10 @@ function generateMarkdown(data) {
 
   ## Tests
   ${data.test}
+
+  ## License
+
+  This project is covered under an ${data.license} license.
   
   ## Questions
   
