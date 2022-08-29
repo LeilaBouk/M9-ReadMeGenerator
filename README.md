@@ -2,6 +2,7 @@
 
 ## App Demo 🗺
 
+[![Demo ReadMe](assets/ReadMeDemo_AdobeExpress_AdobeExpress.gif)]
 
 ## About this project 🐊
 
